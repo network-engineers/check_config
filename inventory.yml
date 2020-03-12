@@ -2,7 +2,7 @@
 router1 host = 1.1.1.1
 router2 host = 2.2.2.2
 
-[switches:vars]
+[routers:vars]
 ansible_user=cisco
 gather_facts=False
 ansible_connection=network_cli
